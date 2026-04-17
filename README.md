@@ -19,14 +19,16 @@ pnpm run dev
 
 ---
 
+```
 # ⚡ If using CMD to create file (pnpm version)
 
-```bat
-(
-echo # React Employee App
-echo.
-echo ## Setup
-echo pnpm install
-echo pnpm add react-router-dom react-bootstrap bootstrap
-echo pnpm run dev
-) > README.md
+
+ # React Employee App
+
+ ## Setup
+```bash
+ pnpm install
+ pnpm add react-router-dom react-bootstrap bootstrap
+ pnpm run dev
+ 
+```
