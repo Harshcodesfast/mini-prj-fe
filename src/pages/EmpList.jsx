@@ -14,10 +14,10 @@ export default function EmpList() {
       <LogoutBtn />
 
       <ul className="list-group">
-        {employees.map((emp) => {
+        {employees.map((emp,index) => {
           console.log(emp)
           return(
-          <li key={emp.id} className="list-group-item">
+          <li key={index} className="list-group-item">
             <strong>{emp.name}</strong> - {emp.email}
             <br />
             <b>Salary : {emp.salary}</b>
